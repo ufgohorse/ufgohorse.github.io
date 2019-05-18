@@ -1,0 +1,137 @@
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of css reset */
+
+body {
+	height: 100%;
+	width: 100%;
+	background: yellow;
+ 	background: url("images/background.jpeg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#menu-home {
+	background: red;
+	height: 15vh;
+	box-shadow: 0 15px 8px -8px black;
+	border-radius: 0 0 1.3em 1.3em;
+}
+
+#avg-logo {
+	max-height: 10vh;
+	max-width: 10vw;
+	padding: 2.5vh 0 0 2.5vh;
+	display: inline;
+	float: left;
+}
+
+#menu-nav {
+	position: relative;
+	display: inline;
+	vertical-align: baseline;
+	top: 10vh;
+	margin-left: 2%;
+}
+
+#menu-nav a, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#menu-nav li {
+	position: relative;
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin: 3%;
+	width: auto;
+	box-shadow: 0 5px 3px -3px black;
+}
+
+#content {
+	position: absolute;
+	width: 70%;
+	left: 15%;
+}
+
+article {
+	padding: 2%;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	background-color: rgba(150, 150, 150, 0.5);
+	text-align: center;
+	margin-top: 2%;
+	width: auto;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 0.2em;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	background-color: rgba(150, 150, 150, 0.5);
+	width: auto;
+	text-align: justify;
+	width: ;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	border-radius: 0.2em;
+}
+
+#stan {
+	transition: 2s;
+	transform: rotate(0deg);
+	height: auto;
+	width: auto;
+	max-width: 30%;
+	max-height: 30%;
+	float: left;
+	margin-top: 2%;
+	margin-right: 2%;
+	border-radius: 0.8em;
+	border: 2px solid black;
+}
+
+#stan:hover {
+	transition: 2s;
+	transform: rotate(-5deg);
+}
